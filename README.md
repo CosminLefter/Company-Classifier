@@ -19,7 +19,7 @@ My aproach for the RoBERTa model:
  – Business Tags
  – Sector, Category, Niche Classification" 
 It my be better to exclude some of these categories for example "Sector" from the model beacuse the words that they contain are to 
- general and my affect the acuracy. 
+ general and may affect the accuracy. 
   I've seen in the data words like "Manufactoring" or "Services" that could increase the similarity metric and affect the result.
 
   Next step I loaded the Roberta model and then converted the text into vector embedings. 
