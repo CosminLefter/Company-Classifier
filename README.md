@@ -41,4 +41,6 @@ For the TF-IDF Vectorization solution I transformed textual data into numerical 
 
 ![Figuresklearn](https://github.com/user-attachments/assets/56f085c6-0090-4ccb-888e-184fa63f9a24)
 
+We can see the results in the Roberta_result.csv and Tf_IdfVectorization_Result.csv
+
 
