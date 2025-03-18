@@ -10,6 +10,7 @@ My aproach for the RoBERTa model:
  First I prepeard the text by removing non-alphanumeric characters convert to lowercase and tokenize the text into individual words.
 
  Next step is to combine the colums for each comany into a single string(sector, description, category etc). 
+ 
  First observation and the first question that I asked: 
    In the description of this task it says: 
   "Accept a list of companies with associated data:
