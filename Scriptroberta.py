@@ -99,7 +99,7 @@ plt.xlabel('Cosine Similarity')
 plt.ylabel('Frequency')
 plt.show()
 
-# Assign **top 3** labels based on similarity
+# Assign top 3 labels based on similarity
 assigned_labels = []
 
 for i in range(len(company_list)):
@@ -110,7 +110,6 @@ for i in range(len(company_list)):
 # Store assigned labels
 company_list["top_3_insurance_labels"] = assigned_labels
 
-# Save results
 company_list.to_csv("Roberta_result.csv", index=False)
 similarity_df.to_csv("Roberta_similarity.csv")
 
