@@ -12,8 +12,9 @@ My aproach for the RoBERTa model:
  Next step is to combine the colums for each comany into a single string(sector, description, category etc). 
  
  First observation and the first question that I asked: 
-   In the description of this task it says: 
-  "Accept a list of companies with associated data:
+ 
+ In the description of this task it says: 
+ "Accept a list of companies with associated data:
     – Company Description
     – Business Tags
     – Sector, Category, Niche Classification" 
