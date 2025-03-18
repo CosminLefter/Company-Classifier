@@ -104,6 +104,6 @@ company_list["insurance_label"] = assigned_labels
 company_list["explanation"] = explanation
 
 # Save annotated dataset
-company_list.to_csv("Tf_IdfVectorization.csv", index=False)
+company_list.to_csv("Tf_IdfVectorization_Result.csv", index=False)
 similarity_df.to_csv("Tf_IdfVectorization_Similarity.csv", index=True)
 print("completed!")

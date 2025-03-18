@@ -111,7 +111,7 @@ for i in range(len(company_list)):
 company_list["top_3_insurance_labels"] = assigned_labels
 
 # Save results
-company_list.to_csv("annotated_company_list.csv", index=False)
-similarity_df.to_csv("similarity_scores.csv")
+company_list.to_csv("Roberta_result.csv", index=False)
+similarity_df.to_csv("Roberta_similarity.csv")
 
 print("completed!")
